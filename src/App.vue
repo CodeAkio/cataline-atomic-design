@@ -1,21 +1,21 @@
 <template>
   <div class="component">
-    <NavItem text="Home" to="/home" />
+    <NavBar />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { NavItem } from '@/components/atoms'
+import { NavBar } from '@/components/molecules'
 
 export default defineComponent({
   name: 'App',
-  components: { NavItem }
+  components: { NavBar }
 })
 </script>
 
 <style lang="scss" scoped>
 .component {
-  width: 300px;
+  margin: 0;
 }
 </style>
