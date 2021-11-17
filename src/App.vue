@@ -1,21 +1,21 @@
 <template>
   <div class="component">
-    <NavBar />
+    <SearchForm />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { NavBar } from '@/components/molecules'
+import { SearchForm } from '@/components/molecules'
 
 export default defineComponent({
   name: 'App',
-  components: { NavBar }
+  components: { SearchForm }
 })
 </script>
 
 <style lang="scss" scoped>
 .component {
-  margin: 0;
+  margin: 5rem;
 }
 </style>
